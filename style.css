@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --bg-primary: #feffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #ffffff;
+  --bg-quaternary: #eef2ff;
+  --color-primary: #1e293b;
+  --color-secondary : #4f4de5;
+  --linear-bg-primary: linear-gradient(to bottom, #feffff, #8f93f3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+body {
+  max-width: 1440px;
+  background-color: var(--bg-primary);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+/* common design */
+.common_flex_design {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: 1px solid #cbd5e1;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.7%;
+  padding: 0.7rem 1.1rem;
+  border-radius: 45%;
+}
+
+h6 {
+  background-color: var(--bg-quaternary);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.6%;
+  text-align: center;
+  color: var(--color-secondary);
+}
+
+h1 {
+  color: var(--color-primary);
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 68px;
+  letter-spacing: -1.8%;
+  text-align: center;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* navbar design */
+.navbar {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 0.8rem 0;
+}
+
+.brand-name {
+  color: var(--color-primary);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.nav-links a {
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.7%;
+  color: #475569;
+  gap: 1rem;
+}
+
+.btn-login {
+  background-color: #4f46e5;
+  color: #fff;
+}
+
+.right-nav {
+  display: flex;
+  gap: 0.8rem;
+}
+
+/* hero section design */
+.hero-section {
+  background: var(--linear-bg-primary);
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-detail{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+/* .hero-detail > h6{
+  width: 180px;
+  text-align: center;
+  padding: 3px 5px;
+} */
+
+.hero-detail-images{
+  display: flex;
+  gap: .6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-img > img{
+  width: 100%;
+  height: auto;
+}
