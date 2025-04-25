@@ -69,12 +69,30 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  color: var(--color-primary);
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1.4%;
+  text-align: center;
+}
+
 h4 {
   color: var(--color-primary);
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: -1%;
+  text-align: center;
+}
+
+h5 {
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 68px;
+  letter-spacing: -1.8%;
   text-align: center;
 }
 
@@ -200,7 +218,7 @@ p {
 .feature-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap:2.4rem;
+  gap: 2.4rem;
   width: 1216px;
   margin: 3.7rem auto 0;
 }
@@ -215,4 +233,229 @@ p {
 
 .feature-detail > p {
   font-size: 16px;
+}
+
+/* work section */
+#work {
+  background-color: var(--bg-secondary);
+  margin-top: 3rem;
+}
+
+.work-container {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 376px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-card-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.work-wrapper {
+  border-right: 1px solid #cdb5e1;
+  padding: 1rem 2rem;
+}
+
+.work-wrapper > p {
+  color: #475569;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.8%;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+/* who section design */
+#who {
+  max-width: 1216px;
+  background-color: var(--bg-tertiary);
+  margin: 0 auto;
+}
+
+.who-wrapper {
+  width: 680px;
+  margin-top: 3rem;
+  text-align: left;
+  padding: 0.3rem;
+}
+
+.who-wrapper > h5 {
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.6%;
+  text-align: left;
+  background-color: #eef2ff;
+  color: var(--color-secondary);
+  margin-bottom: 1.3rem;
+}
+
+.who-wrapper > h3,
+p {
+  text-align: left;
+  margin-bottom: 0.4rem;
+}
+
+.who-container {
+  width: 1216px;
+  margin: 1.8rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.who-details {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.who-border-first {
+  border-left: 2px solid var(--color-secondary);
+}
+
+.who-border-second {
+  border-left: 2px solid #e0e7ff;
+}
+
+.who-detail > h4 {
+  text-align: left;
+}
+
+.who-detail > p {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 0.6rem;
+}
+
+.who-image > img {
+  width: 100%;
+  height: auto;
+}
+
+/* testimonials design */
+#testimonials {
+  width: 100%;
+  background-color: var(--bg-secondary);
+  margin: 0 auto;
+}
+
+.testmional-wrapper {
+  width: 1216px;
+  margin: 0rem auto;
+}
+
+.testimonials-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 3rem;
+  padding-top: 3.4rem;
+}
+
+.testimonials-detail > p {
+  text-align: center;
+}
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  width: 1216px;
+  margin: auto;
+}
+
+.testmional-card {
+  background-color: var(--bg-secondary);
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 3rem;
+  border-radius: 24px;
+}
+
+.testmional-card-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.testmional-card-detail > h6 {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.7%;
+  text-align: left;
+}
+
+.testmional-card-detail > p {
+  color: #475569;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+/* office section design */
+#office {
+  background-color: var(--bg-tertiary);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.office-container {
+  width: 1216px;
+  margin: 4rem auto 0;
+}
+
+.office-detail {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.office-detail > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.office-wrapper{
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.office-card{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  padding: 1.4rem;
+   border: 1px solid #e2e8f0;
+   border-radius: 10px;
 }
